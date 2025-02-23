@@ -38,7 +38,7 @@ main {
     align-items: center;
 }
 
-main h2{
+h2{
     margin-top: 20px;
 
 }
@@ -113,9 +113,9 @@ nav img:hover {
     width: 0%;
     height: 2px;
     background: #f44336;
-    display: block !important;
-    margin: auto !important;
-    transition: 0.5s !important;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
 
 }
 
@@ -134,13 +134,14 @@ nav img:hover {
     transform: translate(-50%,-50%);
     text-align: center;
     background-color: rgba(19,88,65,0.9);
-    padding: 40px;
+    padding: 35px;
     border-radius: 15px;
 }
 
-.text-box h1 {
-    font-size: 48px;
+h1 {
+    font-size: 30px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .text-box p {
@@ -172,7 +173,7 @@ nav img:hover {
 
 footer {
     background-color: #edd4b2;
-    color: white !important;
+    color: white;
     padding: 20px;
     text-align: center;
     position: relative;
@@ -187,7 +188,7 @@ footer nav a {
 }
 
 footer nav a:hover {
-    color: white !important;
+    color: white;
 }
 
 
@@ -222,7 +223,7 @@ nav .fa {
 
 
 @media(max-width: 480px) {
-    .text-box h1 {
+    h1 {
         font-size: 36px;
     }
 
