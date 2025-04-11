@@ -173,3 +173,47 @@ footer {
   text-align: left;
   font-size: 20px;
 }
+
+th {
+  font-weight: bold;
+}
+
+figure {
+  margin: 20px 0;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  background-color: #fefae0;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+thead tr {
+  background-color: #283618;
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f0e9b3;
+}
+tbody tr:nth-child(even):not(:first-child) {
+  background-color: #d4a373;
+}
+
+.text-right {
+  text-align: right;
+}

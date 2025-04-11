@@ -1,4 +1,14 @@
 {
   "type": "dir",
-  "subNodes": {}
+  "subNodes": {
+    "itis3135": {
+      "type": "dir",
+      "subNodes": {
+        "tables.html": {
+          "type": "html",
+          "annotation": ""
+        }
+      }
+    }
+  }
 }
