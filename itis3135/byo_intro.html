@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div data-include="components/header.html"></div>
+    </header>
+
+    <main>
+      <h2>BYO Intro</h2>
+      <h3>
+        Time to BYO Intro page, please fill out the form below so we can create
+        your own page.
+      </h3>
+
+      <form action="" id="intro-form">
+        <label for="name"><strong>Name:</strong></label>
+        <input type="text" id="name" value="Jacob Ware" />
+
+        <label for="mascot"><strong>Mascot:</strong></label>
+        <input type="text" id="mascot" value="Jolly Wallaby" />
+
+        <label for="image"><strong>Image:</strong></label>
+        <input type="file" id="image" accept="image/png, image/jpeg" />
+
+        <label for="image-caption"><strong>Image Caption:</strong></label>
+        <input
+          type="text"
+          id="image-caption"
+          value="Me snorkeling in the British Virgin Islands"
+        />
+
+        <label for="personal-background"
+          ><strong>Personal Background:</strong></label
+        >
+        <input
+          type="text"
+          id="personal-background"
+          value="I am from Holly Springs, North Carolina and I have lived there most of my life. Moved to Charlotte recently to attend college"
+        />
+
+        <label for="professional-background"
+          ><strong>Professional Background:</strong></label
+        >
+        <input type="text" id="professional-background" value="None" />
+
+        <label for="academic-background"
+          ><strong>Academic Background:</strong></label
+        >
+        <input
+          type="text"
+          id="academic-background"
+          value="Sophomore in Computer Science with Data Science concentration"
+        />
+
+        <label for="platform"
+          ><strong>Primary Computer Platform:</strong></label
+        >
+        <input type="text" id="platform" value="Macbook" />
+
+        <div id="courses-container">
+          <label for="courses"
+            ><strong>Courses I'm Taking and Why:</strong></label
+          >
+        </div>
+
+        <label for="funny-thing"
+          ><strong>Funny/Interesting thing about yourself:</strong></label
+        >
+        <input
+          type="text"
+          id="funny-thing"
+          value="I am colorblind and I think it only gets worse"
+        />
+
+        <label for="anything-else"><strong>Anything Else?</strong></label>
+        <input type="text" id="anything-else" value="anything else?" />
+
+        <label for="agreement"
+          >I understand that what is on this page is not password protected and
+          I will not put anything here that I don't want publicly available.
+        </label>
+        <input type="checkbox" id="agreement" />
+
+        <!-- submit and reset button -->
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>.≥
+      </form>
+    </main>
+
+    <footer>
+      <div data-include="components/footer.html"></div>
+    </footer>
+  </body>
+</html>
