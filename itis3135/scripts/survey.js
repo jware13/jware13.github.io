@@ -57,6 +57,7 @@ function validateForm(e) {
     const description = courseDescriptions[i]
       ? courseDescriptions[i].value
       : "";
+
     return `${name} - ${description}`;
   });
 
