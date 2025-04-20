@@ -11,7 +11,7 @@ function validateForm(e) {
     "academic-background",
     "platform",
     "funny-thing",
-    "anything-else",
+    "anything-else"
   ];
 
   let isValid = true;

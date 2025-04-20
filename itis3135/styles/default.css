@@ -241,9 +241,9 @@ form input[type="url"],
 form input[type="number"],
 form textarea {
   width: 100%;
-  padding: 10px;
+  /* padding: 10px; */
   margin-top: 5px;
-  border: 1px solid #d4a373;
+  /* border: 1px solid #d4a373; */
   border-radius: 5px;
 }
 
@@ -286,7 +286,7 @@ form input[type="reset"]:hover {
 #reset {
   background-color: #d4a373;
   color: white;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -298,7 +298,7 @@ form input[type="reset"]:hover {
   background-color: #d4a373;
   color: white;
   width: 49%;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   border: none;
   border-radius: 5px;
   cursor: pointer;
