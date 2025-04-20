@@ -217,3 +217,90 @@ tbody tr:nth-child(even):not(:first-child) {
 .text-right {
   text-align: right;
 }
+
+form {
+  background-color: #fefae0;
+  padding: 30px;
+  border: 2px solid #d4a373;
+  border-radius: 12px;
+  margin-top: 20px;
+  width: auto;
+  max-width: 800px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #283618;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="url"],
+form input[type="number"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #d4a373;
+  border-radius: 5px;
+}
+
+form input[type="file"] {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #d4a373;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #d4a373;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover,
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+  background-color: #283618;
+  color: white;
+}
+
+#courses-container button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 60px;
+}
+
+#courses-container input {
+  width: 100%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#reset {
+  background-color: #d4a373;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 49%;
+}
+
+#submit-form {
+  background-color: #d4a373;
+  color: white;
+  width: 49%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}

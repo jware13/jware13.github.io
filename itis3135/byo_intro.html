@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="https://lint.page/kit/4d0fe3.js"></script>
   </head>
   <body>
     <header>
@@ -57,20 +59,26 @@
           value="Sophomore in Computer Science with Data Science concentration"
         />
 
+        <label for="web-background"><strong>Backgroundin Web Development:</strong></label>
+        <input type="text" id="web-background" value="None" />
+
         <label for="platform"
           ><strong>Primary Computer Platform:</strong></label
         >
         <input type="text" id="platform" value="Macbook" />
 
         <div id="courses-container">
-          <label for="courses"
-            ><strong>Courses I'm Taking and Why:</strong></label
-          >
+          <label>Courses Currently Taking:</label>
+          <button type="button" id="add-course-button" onclick="addCourseField()">Add Course</button>
+
+
         </div>
 
-        <label for="funny-thing"
-          ><strong>Funny/Interesting thing about yourself:</strong></label
-        >
+
+
+        <label for="funny-thing"><strong>Funny/Interesting thing about yourself:</strong></label>
+
+        </label>
         <input
           type="text"
           id="funny-thing"
@@ -80,20 +88,30 @@
         <label for="anything-else"><strong>Anything Else?</strong></label>
         <input type="text" id="anything-else" value="anything else?" />
 
-        <label for="agreement"
-          >I understand that what is on this page is not password protected and
+        <label>
+          <input type="checkbox" id="agreement" required>
+          I understand that what is on this page is not password protected and
           I will not put anything here that I don't want publicly available.
         </label>
-        <input type="checkbox" id="agreement" />
+
+       
 
         <!-- submit and reset button -->
-        <button type="submit" value="Submit">Submit</button>
-        <button type="reset" value="Reset">Reset</button>.≥
+        <button id="submit-form" type="submit">Submit</button>
+        <button id="reset" type="button" onclick="resetForm()">Reset</button>
       </form>
+
+      <div id="results"></div>
+      
     </main>
 
     <footer>
       <div data-include="components/footer.html"></div>
     </footer>
+
+    <script src="scripts/survey.js"></script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+   
+    <script>document.getElementById("intro-form").addEventListener("submit", validateForm)</script>
   </body>
 </html>
