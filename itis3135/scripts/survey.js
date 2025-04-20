@@ -1,5 +1,3 @@
-document.getElementById("intro-form").addEventListener("submit", validateForm);
-
 function validateForm(e) {
   e.preventDefault();
 
@@ -56,7 +54,9 @@ function validateForm(e) {
 
   const courses = Array.from(courseFields).map((input, i) => {
     const name = input.value;
-    const description = courseDescriptions[i]?.value || "";
+    const description = courseDescriptions[i]
+      ? courseDescriptions[i].value
+      : "";
     return `${name} - ${description}`;
   });
 
@@ -100,6 +100,8 @@ function validateForm(e) {
   document.getElementById("intro-form").style.display = "none";
   document.getElementById("results").innerHTML = resultHTML;
 }
+
+document.getElementById("intro-form").addEventListener("submit", validateForm);
 
 //reset function
 function resetForm() {
