@@ -304,3 +304,17 @@ form input[type="reset"]:hover {
   cursor: pointer;
   font-size: 16px;
 }
+
+.h4-header {
+  text-align: center;
+}
+
+.project-overview-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+ul {
+  line-height: 1.6;
+}
