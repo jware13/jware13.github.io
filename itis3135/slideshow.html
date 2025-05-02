@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jacob Ware's Jolly Wallaby || ITIS3135 Slideshow Gallery</title>
+    <link rel="stylesheet" href="styles/default.css" />
+  </head>
+  <body>
+    <header>
+      <div data-include="components/header.html"></div>
+    </header>
+    <main>
+      <!-- Container for the image gallery -->
+      <div class="container">
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <img src="images/jacket.png" class="slideshow-image" />
+          <div class="caption">J - Jacket</div>
+        </div>
+
+        <div class="mySlides">
+          <img src="images/apple.png" class="slideshow-image" />
+          <div class="caption">A - Apple</div>
+        </div>
+
+        <div class="mySlides">
+          <img src="images/chopsticks.png" class="slideshow-image" />
+          <div class="caption">C - Chopsticks</div>
+        </div>
+
+        <div class="mySlides">
+          <img src="images/oil.png" class="slideshow-image" />
+          <div class="caption">O - Oil</div>
+        </div>
+
+        <div class="mySlides">
+          <img src="images/book.png" class="slideshow-image" />
+          <div class="caption">B - Book</div>
+        </div>
+
+        <div class="mySlides">
+          <img src="images/wok.png" class="slideshow-image" />
+          <div class="caption">W - Wok</div>
+        </div>
+
+        <div class="mySlides">
+          <img src="images/adobo.png" class="slideshow-image" />
+          <div class="caption">A - Adobo</div>
+        </div>
+
+        <div class="mySlides">
+          <img src="images/raid.png" class="slideshow-image" />
+          <div class="caption">R - Raid</div>
+        </div>
+
+        <div class="mySlides">
+          <img src="images/espresso.png" class="slideshow-image" />
+          <div class="caption">E - Espresso</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="images/jacket.png"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+              alt="J - Jacket"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="images/apple.png"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+              alt="A - Apple"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="images/chopsticks.png"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+              alt="C - Chopsticks"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="images/oil.png"
+              style="width: 100%"
+              onclick="currentSlide(4)"
+              alt="O - Oil"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="images/book.png"
+              style="width: 100%"
+              onclick="currentSlide(5)"
+              alt="B - Book"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="images/wok.png"
+              style="width: 100%"
+              onclick="currentSlide(6)"
+              alt="W - Wok"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="images/adobo.png"
+              style="width: 100%"
+              onclick="currentSlide(6)"
+              alt="A - Adobo"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="images/raid.png"
+              style="width: 100%"
+              onclick="currentSlide(6)"
+              alt="R - Raid"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="images/espresso.png"
+              style="width: 100%"
+              onclick="currentSlide(6)"
+              alt="E - Espresso"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3>Notes:</h3>
+        <ul>
+          <li>
+            Got help through
+            <a
+              href="https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp"
+              >w3schools.com</a
+            >
+          </li>
+          <li>
+            Only somewhat difficult part was resizing the images to make sure
+            they didnt take up too much space
+          </li>
+          <li>
+            This is my work and I did not copy and paste someone else's code.
+          </li>
+          <li>Jacob Ware 5/2/25 at 12:30pm</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/slideshow-gallery.js"></script>
+    <script src="scripts/HTMLInclude.min.js"></script>
+  </body>
+</html>
