@@ -11,7 +11,7 @@ body {
   background-color: #f4f4f4;
   color: #333;
   min-height: 100vh;
-  min-height: 100dvh;
+  /* min-height: 100dvh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,10 +107,6 @@ footer {
   /* margin-left: 10px; */
   gap: 20px;
   flex: 1;
-}
-.logo.text {
-  display: flex;
-  flex-direction: column;
 }
 
 .socials-container {
