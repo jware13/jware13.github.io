@@ -5,27 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seagull Sustainability | Products</title>
     <link rel="stylesheet" href="styles/seagull-styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header>
       <div data-include="components/header.html"></div>
     </header>
     <main>
-      <h2>Our products</h2>
-      <p>
-        This is where the images of the products will be and a photo reel of the
-        diffrent use cases of the products
-      </p>
-      <br />
-      <p>
-        can maybe give some information on the materials used, where you got
-        them? where you came to the idea of the product?
-      </p>
+      <h2 class="products-header">Our Products</h2>
+
+      <div class="swiper card-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide card-item">
+            <a href="#" class="card-link">
+              <img
+                src="images/plant-pod.png"
+                alt="Product 1"
+                class="card-image"
+              />
+              <p class="badge">Plant Pod</p>
+              <!-- <h2 class="card-title">Plant Pod</h2> -->
+              <p class="card-description">
+                Keep your plants happy and healthy with Plant Pod. An easy way to deliver nutritious food to your plants
+              </p>
+              <ul>
+                <li>Packaged in our biodegradable Simply Sea film.</li>
+                <li>Disappears in your watering can</li>
+                <li>Keep your plants happy and healthy</li>
+              </ul>
+              
+              
+              
+              <a
+                href="learn.html#plant-pod"
+                class="card-button"
+                title="Learn more about Plant Pod"
+                >Learn More</a
+              >
+            </a>
+            
+
+          </div>
+
+          <div class="swiper-slide card-item">
+            <a href="#" class="card-link">
+              <img
+                class="card-image"
+                src="images/simply-sea-film.png"
+                alt="Product 2"
+              />
+              <p class="badge">Simply Sea Film</p>
+              <!-- <h2 class="card-title">Simply Sea Film</h2> -->
+              <p class="card-description">
+                Enable your recycling process by using our Simply Sea Film to label your bottles
+              </p>
+              <ul>
+                <li>Sturdy label on the bottle</li>
+                <li>Disappears in the recycling process</li>
+                <li>Upgrades your packaging's sustainability</li>
+              </ul>
+              <a href="learn.html#bottle-labels" class="card-button" title="Learn more about Bottle Labels">Learn More</a>
+
+            </a>
+            
+          </div>
+
+          <div class="swiper-slide card-item">
+            <a href="#" class="card-link">
+              <img
+                class="card-image"
+                src="images/space-suit.png"
+                alt="Product 3"
+              />
+              <p class="badge">Space Suit</p>
+              <!-- <h2 class="card-title">Space Suit</h2> -->
+              <p class="card-description">Coming soon.</p>
+              <a href="learn.html#space-suit" class="card-button" title="Learn more about the Space Suit">Learn More</a>
+              
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
     </main>
     <footer>
       <div data-include="components/footer.html"></div>
     </footer>
-
+    <script src="scripts/photo-carousel.js"></script>
     <script src="scripts/default.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>

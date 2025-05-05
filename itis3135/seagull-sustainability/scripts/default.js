@@ -17,4 +17,31 @@ document.addEventListener("DOMContentLoaded", () => {
         el.innerHTML = "<p>Failed to load content.</p>";
       });
   });
+
+  // Swiper setup for product cards
+  new Swiper(".card-swiper", {
+    loop: true,
+    spaceBetween: 24,
+    grabCursor: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    breakpoints: {
+      600: {
+        slidesPerView: 1
+      },
+      768: {
+        slidesPerView: 2
+      },
+      1024: {
+        slidesPerView: 3
+      }
+    }
+  });
 });
